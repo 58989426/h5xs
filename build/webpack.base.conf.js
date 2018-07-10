@@ -50,6 +50,10 @@ module.exports = {
         }
       },
       {
+        test:/\.scss$/,
+        loader : ["style-loader","css-loader","scss-loader"]
+      },
+      {
         test: /\.(mp4|webm|ogg|mp3|wav|flac|aac)(\?.*)?$/,
         loader: 'url-loader',
         options: {
