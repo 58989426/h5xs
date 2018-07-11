@@ -1,34 +1,42 @@
-    <template>
+    <template>	
+    	<!--头部-->
         <div class="header">
             <div class="left">
-                <img src="../assets/images/logo.gif"  class="logo">
+                <img src="@/assets/images/logo.gif"  class="logo">
                 <span class="title">小说阅读网</span>
             </div>
             <div class="right">
-                <i></i>
-                <i></i>
+	            <router-link to="/"><i class="iconfont icon-ren"></i></router-link>
+				<router-link to="/"><i class="iconfont icon-xiaoshuowanben"></i></router-link>
             </div>
         </div>
+        <!--轮播图-->
+        
     </template>
 
     <script>
-        export default{
-
-        }
+     import Swiper from 'swiper';
+		export default {
+		  data () {
+		    return {
+		      
+		    }
+		  },
+		  mounted(){
+		    
+		  }
+		}	
     </script>
     <style lang="scss">
         @function rf($px){//$px为需要转换的字号
             @return $px / 50px * 1rem; //25px为根字体大小
         }
-    *{
-        margin:0;
-        padding:0;
-        box-sizing:border-box;
-    }
+   
+    
     .header{
             padding:0 rf(25px);
             height: rf(88px);
-
+			
             .left{
                 width: rf(180px);
                 height: rf(88px);
@@ -55,6 +63,23 @@
                 }
             .right{
                 float: right;
+               width:rf(120px);
+               height: rf(88px);
+               padding-top: rf(21px);
+               i{
+                 display: block;
+                 width: rf(46px);
+                 height: rf(46px);
+                 color: #ff7e8f;
+                 font-size: rf(46px);
+                 box-sizing: border-box;
+               }
+               i:nth-child(1){
+                float: left;
+               }
+               i:nth-child(2){
+                float: right;
+               }
             }
             }
 
