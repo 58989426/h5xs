@@ -1,8 +1,8 @@
 <template>
-	<div class="new">
+	<div class="popular">
 		<div class="top">
 			<div class="title">
-				{{type}}
+				人气完本
 			</div>
 			<router-link to="/">
 				<div class="more">
@@ -76,11 +76,7 @@
 
 <script>
 	export default{
-	props:["type"],
-		data(){
-		return{
-		}
-		}
+		
 	}
 </script>
 
@@ -88,7 +84,7 @@
 	@function rf($px){
             @return $px / 50px * 1rem;
         }
-    .new{
+    .popular{
     	height: rf(795px);
     	width: 100%;
     	overflow: hidden;

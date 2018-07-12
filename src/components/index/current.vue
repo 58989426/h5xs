@@ -2,15 +2,8 @@
 	<div class="curr">
 		<div class="top">
 			<div class="title">
-				本周强推
+				{{type}}
 			</div>
-			<router-link to="/">
-				<div class="more">
-					<span>更多</span>
-					<i class="iconfont icon-right"></i>
-				</div>
-			</router-link>
-
 		</div>
 		<div class="content">
 			<div class='list' >
@@ -61,7 +54,12 @@
 
 <script>
 	export default{
-		
+	props:["type"],
+		data(){
+		return{
+			
+			}
+		}
 	}
 </script>
 
@@ -105,7 +103,6 @@
 				  width: rf(160px);
 				  box-sizing: border-box;
 				  float: left;
-				  
 				  margin-right: 0.2rem;
 				  .box1{
 				  display: flex;

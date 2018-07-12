@@ -10,8 +10,8 @@
 </script>
 
 <style lang="scss">
-	@function rf($px){//$px为需要转换的字号
-            @return $px / 50px * 1rem; //25px为根字体大小
+	@function rf($px){
+            @return $px / 50px * 1rem; 
         }
         a{
         		display: block;
@@ -22,11 +22,11 @@
         	height:rf(66px);
         	width:rf(700px);
         	margin: rf(10px) rf(25px) 0 rf(25px);
-        	background: #CCCCCC;
+        	background: #f7f7f7;
         	line-height: rf(66px);
         	font-size: rf(20px);
         	text-align: center;
-        	background: url(../../assets/images/sea.gif) no-repeat  ;
+        	background: url(../../assets/images/sea.gif) #f7f7f7 no-repeat  ;
         	background-position: rf(260px) center;
         	background-size: rf(36px);
         	padding: 0 rf(25px);

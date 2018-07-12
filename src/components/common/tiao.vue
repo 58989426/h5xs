@@ -12,6 +12,6 @@
 	.tiao{
 		height: 0.5rem;
 		width: 100%;
-		background: #ccc;
+		background: #f7f7f7;
 	}
 </style>
