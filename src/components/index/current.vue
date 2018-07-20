@@ -6,13 +6,17 @@
 			</div>
 		</div>
 		<div class="content">
-			<div class='list' >
+			
+		    <router-link  to="/detail">
+		    	<div class='list' >
 		      <div class='box1' >
 		        <img src="@/assets/images/test.jpg" class='simg'></img>
 		            <span class='name'>报告首长，我重生了</span>
 		            <span class="author">白鸟超峰</span>
 		      </div>
 		    </div>
+		    	
+		    </router-link>
 		    <div class='list' >
 		      <div class='box1' >
 		        <img src="@/assets/images/test.jpg" class='simg'></img>

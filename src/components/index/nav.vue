@@ -1,30 +1,30 @@
 <template>
 	<div class="nav">
-		<router-link to="/">
+		<router-link to="/detail">
 			<div class="fl">
 				<i class="iconfont icon-leimupinleifenleileibie"></i>
 				<span>分类</span>
 			</div>
 		</router-link>
-		<router-link to="/">
+		<router-link to="/detail">
 			<div class="fl">
 				<i class="iconfont icon-paihang"></i>
 				<span>排行榜</span>
 			</div>
 		</router-link>
-		<router-link to="/">
+		<router-link to="/detail">
 			<div class="fl">
 				<i class="iconfont icon-fuli"></i>
 				<span>福利</span>
 			</div>
 		</router-link>
-		<router-link to="/">
+		<router-link to="/detail">
 			<div class="fl">
 				<i class="iconfont icon-xinshu"></i>
 				<span>新书</span>
 			</div>
 		</router-link>
-		<router-link to="/">
+		<router-link to="/detail">
 			<div class="fl">
 				<i class="iconfont icon-shu"></i>
 				<span>完本</span>

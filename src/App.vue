@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-	    <Header />
+	    <!--<Header />
 	    <Swiper />
 	    <Sea />
 	    <Nav />
@@ -21,26 +21,30 @@
 	    <Tiao />
 	    <Quality />
 	    <Tiao />
-	    <Bottom />
+	    <Bottom />-->
+	     <router-view/>
   </div>
 </template>
 
 <script>
-import Header from "./components/index/Header"
-import Swiper from "./components/index/swiper"
-import Sea from "./components/index/sea"
-import Nav from "./components/index/nav"
-import Tiao from "./components/common/tiao"
-import Current from "./components/index/current"
-import Rank from "./components/index/rank"
-import Classify from "./components/index/classify"
-import Quality from "./components/index/quality"
-import Newbook from "./components/index/newbook"
-import Bottom from "./components/common/bottom"
+	import Index from "./components/index/index"
+//import Header from "./components/index/Header"
+//import Swiper from "./components/index/swiper"
+//import Sea from "./components/index/sea"
+//import Nav from "./components/index/nav"
+//import Tiao from "./components/common/tiao"
+//import Current from "./components/index/current"
+//import Rank from "./components/index/rank"
+//import Classify from "./components/index/classify"
+//import Quality from "./components/index/quality"
+//import Newbook from "./components/index/newbook"
+//import Bottom from "./components/common/bottom"
+
 export default {
   name: 'App',
   components:{
-    Header,Swiper,Sea,Nav,Tiao,Current,Rank,Classify,Newbook,Quality,Bottom
+//  Header,Swiper,Sea,Nav,Tiao,Current,Rank,Classify,Newbook,Quality,Bottom
+Index
   },
   data(){
     return {
