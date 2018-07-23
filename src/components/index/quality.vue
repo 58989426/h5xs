@@ -104,7 +104,6 @@
 	    	width: 100%;
 	    	overflow: hidden;
 	    	padding-left: 0.5rem;
-	    	border: 1px solid palegreen;
 	    	.top{
     		height: 1.5rem;
     		width: 100%;

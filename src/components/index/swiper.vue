@@ -1,15 +1,10 @@
 <template>
 	<div class="swiper-container">
 		    <div class="swiper-wrapper">
-		        <router-link to="/"><div class="swiper-slide"><img src="@/assets/images/spic1.gif"/></div></router-link>
-		        
+		        <div class="swiper-slide"><router-link to="/"><img src="@/assets/images/spic1.gif"/></router-link></div>
+		        <div class="swiper-slide"><router-link to="/"><img src="@/assets/images/spic1.gif"/></router-link></div>
 		        <div class="swiper-slide"><router-link to="/"><img src="@/assets/images/spic1.gif"/></router-link></div>
 		    </div>
-		    <!-- 如果需要分页器 -->
-		1    <div class="swiper-pagination"></div>
-		     <!-- 如果需要滚动条 -->
-		     <div class="swiper-scrollbar"></div>
-		    
 	</div>
 </template>
 
@@ -23,6 +18,7 @@
 		  },
 		  mounted(){
 		     new Swiper ('.swiper-container', {
+		     autoplay: true,
 		    loop: true,
 		    // 如果需要分页器
 		    pagination: '.swiper-pagination',

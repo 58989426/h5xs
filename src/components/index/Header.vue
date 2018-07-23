@@ -63,22 +63,22 @@
                 }
             .right{
                 float: right;
-               width:rf(120px);
+               width:rf(100px);
                height: rf(88px);
                padding-top: rf(21px);
-               i{
+               display: flex;
+               justify-content: space-between;
+               a{
+               	display: block;
+               	height: rf(46px);
+               	 i{
                  display: block;
                  width: rf(46px);
                  height: rf(46px);
                  color: #ff7e8f;
                  font-size: rf(46px);
                  box-sizing: border-box;
-               }
-               i:nth-child(1){
-                float: left;
-               }
-               i:nth-child(2){
-                float: right;
+               	}
                }
             }
             }

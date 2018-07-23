@@ -46,11 +46,12 @@
         .nav{
         	display: flex;
 		    width: 100%;
-		    height: 2rem;
+		    height: 3rem;
 		    justify-content: space-between;
 		    -webkit-box-pack: justify;
 		    background-color: #fff;
 		    padding: 0 1rem;
+		    align-items: center;
 		    a{
 		    	display: block;
 		        width: 1.5rem;
